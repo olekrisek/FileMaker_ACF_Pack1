@@ -1,6 +1,9 @@
 # FileMaker_ACF_Pack1
 General Purpose Functions for FileMaker to load/save files and some other tings. 
 
+For use with the ACF_Plugin that can be downloaded at : 
+https://webapptech.no
+
 **Prototypes:**
 
 ```
