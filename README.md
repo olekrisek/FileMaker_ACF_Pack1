@@ -13,7 +13,23 @@ Functions to faciltate load and save source and binary files
 - Requires ACF_Plugin 1.5.1.0 as minimum. 
 - Most functions has ACFU_\<name> equivalents. 
 
+**Example ACFU_... Mode:**
 
+```
+ACF_run("LoadFile"; text_filename )
+   ==> Return type = text
+```
+
+becomes: 
+
+```
+ACFU_LoadFile ( text_filename )
+   ==> Return type = text
+```
+
+Here is the list: 
+
+```
 ACF_run("LoadFile"; text_filename)
    ==> Return type = text
 
@@ -73,5 +89,5 @@ ACF_run("Save_Logg"; text_logg; text_name)
 
 ACF_run("Append_Logg"; text_logg; text_FilePath)
    ==> Return type = text
-
+```
 
