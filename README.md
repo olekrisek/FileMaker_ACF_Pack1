@@ -29,6 +29,8 @@ ACFU_LoadFile ( text_filename )
 
 Here is the list: 
 
+For detailed description of the individual functions, look at the source code, where each function have a comment header explaining the function. 
+
 ```
 ACF_run("LoadFile"; text_filename)
    ==> Return type = text
